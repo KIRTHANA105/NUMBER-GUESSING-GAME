@@ -12,6 +12,7 @@ void guess(int N)
 	srand(time(NULL));
     number = rand() % N;
 	printf("Guess a number between 1 and %d\n",N);
+	
 	do {
 
 		if (numberofguess > 10) {
